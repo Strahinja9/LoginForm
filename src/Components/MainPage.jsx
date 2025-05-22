@@ -19,9 +19,7 @@ const MainPage = () => {
            window.location.reload();                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
         }
 
-        if(!user) {
-          return <p>Ucitava se ....</p>
-        }
+      
 
      },[loggedIn, navigate])
 
